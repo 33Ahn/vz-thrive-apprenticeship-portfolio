@@ -7,7 +7,7 @@ This repository is a collection of some of my key learnings during my Thrive app
 ## Overview of Apprenticeship
 - **Host Company**: Verizon
 - **Duration**: June, 2022 to June, 2023
-- **Link to Portfolio Website**:
+- **Link to Portfolio Website**: https://github.com/33Ahn/VZ-Apprenticeship-Portfolio/tree/main
 
 ## Portfolio Introduction
 - Who you are
