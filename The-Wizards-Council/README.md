@@ -30,7 +30,7 @@ Include relevant screenshots (???)
 ## Technologies
 
 - Tech Stack
-    - Node
+    - Node: 18.16.0
     - Express: 4.18.2
     - sequelize: 6.26.0,
     - sqlite: 4.1.2,
@@ -55,15 +55,17 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
 - JF 3.6 Can implement a RESTful API
 
-    -
+    - To implement a RESTful API, I utilized HTTP request verbs such as GET, POST, PUT, and DELETE, ensuring that the corresponding routes followed a consistent naming convention using plural nouns in the URLs.
+
+    - Additionally, I leveraged query strings to assign values to specific parameters in routes, enabling me to create more specific routes. Query strings were formed by appending a question mark followed by key-value pairs separated by equal signs, and multiple key-value pairs were separated by ampersands.
 
 - JF 3.7 Can implement authentication and authorization to an API
 
-    -
+    - To implement authentication and authorization in the API, I utilized user authentication by verifying their identity through their username and password. Once authenticated, I performed authorization by checking if the provided password matches the stored values. Upon successful authentication and authorization, I generated a JSON Web Token (JWT) that granted users continued access to the API without the need to repeatedly log in. This streamlined the user experience and ensured secure access to the API's resources.
 
 - JF 3.8 Can encrypt sensitive data via hashing
 
-
+   - To encrypt sensitive data via hashing, I implemented a salting technique where a random string was added to each user's password, ensuring uniqueness even for identical passwords. Subsequently, I applied a secure hashing algorithm like bcrypt to transform the plain text password into an unintelligible series of characters, making it indecipherable and irreversible, even with the knowledge of the hashing algorithm. This ensured the utmost security and protection for the stored passwords.
 
 ## Environment Variables
 
@@ -77,13 +79,15 @@ To run this project, you will need to add the following environment variables to
 After you clone this repo,
 
 ```
-To access server, install the following
+To access server, run `npm install`, it automatically installs all the dependencies specified in the package.json file, including sqlite3, express, and sequelize.
+
+Running `npm install` command will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file.
+
 npm install
-npm install sqlite3
-npm install express
-npm install sequelize
-npm start -dev
-npm start client -server
+
+To run the server
+   npm start
+   
 ```
 
 # Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
@@ -101,7 +105,7 @@ npm start client -server
 
    ✨ As a User, I want to log in to a deployed app.
 
-         *  🚩 Deployed app <hyperlink> goes here
+         *  🚩 Deployed app <https://the-wizards-council.onrender.com/wizards>
 
 </details>
 
