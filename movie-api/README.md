@@ -15,9 +15,9 @@ Explain the code you wrote to achieve your desired result
 
 - Also, deployed the application on Netlify to  be accessible to users from anywhere, providing them with a platform to interact with the application and experience its functionalities
 
-Showcase your final application with its functionality
+- Showcase your final application with its functionality
 
-    -- The final application showcased full functionality, allowing users to search for movies by title, view detailed information about each movie, and add movies to their watchlist. The user interface provided an intuitive and user friendly experience, making it easy for users to navigate and interact with the application.
+- The final application showcased full functionality, allowing users to search for movies by title, view detailed information about each movie, and add movies to their watchlist. The user interface provided an intuitive and user friendly experience, making it easy for users to navigate and interact with the application.
 
 - Include relevant screenshots
 
