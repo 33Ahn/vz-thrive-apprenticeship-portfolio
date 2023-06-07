@@ -1,0 +1,61 @@
+body {
+  background-color: #090a0e;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 800 !important;
+}
+
+h4,
+.movie-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.light {
+  background-color: pink !important ;
+}
+/* logic to make dark mode theme work see naviagtion.js for details */
+.dark {
+  background-color: rgb(24, 24, 24) !important;
+}
+.toggle {
+  color: white;
+  margin-left: 7px;
+}
+#theme-toggle {
+  margin-left: 10px;
+}
+
+/* add top padding to search */
+.mb-4 {
+  padding-top: 10px;
+}
+/* change color of all movies on nav */
+/* .allMovies {
+  color: white !important;
+  display: flex;
+  align-items: end !important;
+} */
+/* making sure all words on nav are white only background changes color */
+/* .title {
+  color: white !important;
+} */
+/* add card border */
+/* .addBorder {
+  border: 2px solid #c8a2c8 !important;
+} */
+/* change appenreance of movie titles  */
+.link {
+  color: rgb(24, 24, 24);
+}
+iframe {
+  margin: auto !important;
+  display: block !important;
+}
+
+* {
+  text-decoration: none !important;
+}
