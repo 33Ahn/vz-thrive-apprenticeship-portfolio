@@ -1,0 +1,37 @@
+{
+  "name": "the-wizards-council",
+  "version": "1.0.0",
+  "description": "Tier 4 - Authorization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node data/index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingNerd12/The-Wizards-Council.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingNerd12/The-Wizards-Council/issues"
+  },
+  "homepage": "https://github.com/CodingNerd12/The-Wizards-Council#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "remixicon": "^2.5.0",
+    "sequelize": "^6.26.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
