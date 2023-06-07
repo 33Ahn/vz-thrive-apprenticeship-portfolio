@@ -21,11 +21,8 @@ In today's world, every business is closely interconnected with software applica
 
 - The teams you have worked on
 
-During my apprenticeship program, I had the opportunity to collaborate with several teams, including The Reel Girls, The Wizards Council, Akatsuki-Clan, and The Banana Bunch.
+During my apprenticeship program, I had the opportunity to collaborate with several teams, including The Reel Girls, The Wizards Council, Akatsuki-Clan, and Guava-Gang.
 
 - Your areas of interest:
 
 I have a keen interest in the entire spectrum of software development. Currently, I am particularly focused on exploring the backend aspects. I find myself to topics such as building RESTful APIs, establishing communication between applications, server configurations, and designing the architecture of backend systems. Understanding how these components work together to create robust and efficient backend solutions is an area that captivates my curiosity and drives my learning journey.
-
-
-

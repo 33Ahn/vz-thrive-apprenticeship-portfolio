@@ -45,7 +45,8 @@ Include relevant screenshots (???)
 
 - Note any deployment ot testing tools as well
 
-    - Postman
+   - Render https://the-wizards-council.onrender.com/wizards
+   - Postman
 
 
 ## Competencies
