@@ -1,32 +1,81 @@
-# The Wizards Council
-welcome to "The Wizards Council", a backend project containing RESTful APIs, CRUD operations, login and hashing, and authentication and authorization.
+## Project #2: The-Wizards-Council
 
-## Situation
+Give a high-level overview of the project purpose
+
+Describe the application and why you created this program
+
+- The purpose of this project, which was part of the Backend module, was to develop a backend service that enables users to perform CRUD operations on their own spells. The project aimed to provide hands-on experience with RESTful CRUD operations, as well as authentication and authorization processes. Additionally, it involved implementing hashing and JWT (Json Web Token) for enhanced security.
+
+Describe the overall structure of your application and the design process prior to building the program
+
+- The design process involved creating the necessary endpoints for each CRUD operation (create, read, update, delete) and defining their corresponding routes.
+
+- For user login and hashing, a secure password hashing algorithm was implemented to ensure the confidentiality of user credentials.
+
+- Authentication and authorization were implemented using JSON Web Tokens (JWT), where users were issued tokens upon successful login, and these tokens were used to verify their identity and permissions for accessing protected resources.
+
+Explain the code you wrote to achieve your desired result
+
+- To achieve the desired result, I initialized the application using a JavaScript library, React, to build the user interface components, including search box, movie cards, navigation, and movie details.
+
+- Also, deployed the application on Netlify to  be accessible to users from anywhere, providing them with a platform to interact with the application and experience its functionalities
+
+Showcase your final application with its functionality
+
+- Users have the ability to perform various operations on spells within the application, such as reading, adding, deleting, and editing spells stored in the database. The login functionality ensures that passwords are securely hashed and salted before being saved to the database. Additionally, prospective users can sign up for the API, and once registered, they can be granted authorization to access and utilize the API's functionalities.
+
+Include relevant screenshots (???)
 
 
-## Task
+## Technologies
+
+- Tech Stack
+    - Node
+    - Express: 4.18.2
+    - sequelize: 6.26.0,
+    - sqlite: 4.1.2,
+    - sqlite3: 5.1.2
+
+- Include dependencies and versions
+    - bcrypt: 5.1.0,
+    - dotenv: 16.0.3,
+    - http-errors: 2.0.0,
+    - jsonwebtoken: 8.5.1,
+    - remixicon: 2.5.0
+
+- Note any deployment ot testing tools as well
+
+    - Postman
 
 
-## Action
+## Competencies
+
+JOB FUNCTION 2: Take a business or user problem, gather data to analyze the problem, and
+use prototyping tools to create a high fidelity wireframe and UI framework, test the application, and use agile project management
+
+- JF 2.4 Can create simple software designs to effectively communicate understanding of the program
+
+    - The project started with wireframes that were created by our team, outlining the desired layout and functionality of the application. To effectively translate these wireframes into user interfaces, I began by analyzing each wireframe and breaking it down into its core components, and communicated with our team to share our thoughts and ideas.
+
+- JF 2.6 Can translate wireframes into User Interfaces
+
+    - Once the software design was complete, I began implementing the user interfaces based on the design using React. I utilized JSX syntax, CSS styling, and JavaScript to build the necessary components, ensuring they closely matched the wireframes that our team created.
 
 
-## Result
+JOB FUNCTION 4: Manage and deploy applications and programs, conduct testing,        and adhere to industry security standards
 
+- JF 4.3 Is able to build, manage and deploy code into the relevant environment
 
+    - Upon opening an account on Netlify, I proceeded to deploy a React application to a live server. This involved configuring the necessary settings and connecting the application to the Netlify platform.
 
-## Features
+    - By leveraging the features provided by Netlify, I was able to seamlessly deploy the React application to a live server environment.
 
-USER
-- able to login/register
-- able to use CRUD (Create, Read, Update, Delete)
-
-ADMIN
-- able to login/register
-- able to see user info
-- able to delete user
+    - The deployment process involved uploading the codebase to Netlify, configuring build settings, and triggering the deployment process. Netlify handled the build and deployment tasks, ensuring that the application was properly built and optimized for production.
 
 ## Environment Variables
+
 To run this project, you will need to add the following environment variables to your .env file.
+
 - `ACCESS_TOKEN_SECRET`
 - `PORT`
 
