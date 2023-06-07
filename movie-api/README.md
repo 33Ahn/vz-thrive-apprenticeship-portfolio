@@ -129,8 +129,8 @@ JF 4.3 Is able to build, manage and deploy code into the relevant environment
 Give a high-level overview of the project purpose
 
 - (*Situation*) Describe the application and why you created this program
+    -- 
 
-    -- The purpose of the project was to create a movie API that allows users to search for movies, view movie details, and manage their movie watchlist. The application was developed to provide a convenient platform for movie enthusiasts to discover and track their favorite films.
 
 - (*Task*) Describe the overall structure of your application and the design process prior to building the program
 

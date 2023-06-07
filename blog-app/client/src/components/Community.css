@@ -1,0 +1,191 @@
+.postCommunity-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  /* margin-bottom: -2em !important; */
+  width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  /* border: 1px solid red; */
+  align-items: self-start;
+}
+.postCommunity-box:nth-of-type(even) {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  /* padding-right: 4em; */
+  gap: 2em;
+  /* align-items: self-start; */
+}
+h2,
+h3 {
+  color: #333;
+}
+.postCommunity-box:nth-of-type(odd) {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  padding-right: 4em;
+}
+.textCommunity-display {
+  width: 800px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.fig-community {
+  margin-top: 3em;
+  /* margin-left: -2em !important; */
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 3px solid white;
+  border-top: 5px solid white;
+  border-bottom: 15px solid white;
+  box-shadow: 13px 11px 15px -8px rgba(0, 0, 0, 0.49);
+  -webkit-box-shadow: 13px 11px 15px -8px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 13px 11px 15px -8px rgba(0, 0, 0, 0.49);
+}
+.fig-community:nth-child(odd) {
+  margin-top: -3em !important;
+  margin-left: -4em !important;
+}
+
+#dark .fig-community {
+  margin-top: 3em;
+
+  width: 300px;
+  height: 200px;
+
+  overflow: hidden;
+  border: 3px solid white;
+  border-top: 5px solid white;
+  border-bottom: 15px solid white;
+  box-shadow: 13px 11px 15px -8px rgba(255, 201, 149, 0.8);
+  -webkit-box-shadow: 13px 11px 15px -8px rgba(255, 201, 149, 0.6);
+  -moz-box-shadow: 13px 11px 15px -8px rgba(255, 201, 149, 0.6);
+}
+.img-community {
+  height: 220px;
+  width: 100%;
+  transition: 0.3s;
+}
+.img-community:hover {
+  transform: scale(1.2);
+}
+#dark h2 {
+  color: #ff922b;
+}
+
+#dark h3 {
+  color: #ff922b;
+}
+#dark span {
+  color: #ffc995 !important;
+}
+#dark strong {
+  color: #ffc995 !important;
+}
+
+/* phone */
+@media screen and (max-width: 500px) {
+  .postCommunity-box {
+    width: 300px;
+    flex-direction: column;
+    overflow-x: hidden !important;
+  }
+  .postCommunity-box:nth-of-type(even) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4em !important;
+  }
+
+  .textCommunity-display {
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px !important;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .fig-community {
+    margin-right: 1em !important;
+    width: 200px;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .postCommunity-box {
+    width: 768px;
+    flex-direction: column;
+    overflow: hidden !important;
+    padding: 1em;
+  }
+  .postCommunity-box:nth-of-type(even) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4em !important;
+    gap: 4em;
+  }
+
+  .textCommunity-display {
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  /* .fig-community {
+    margin-right: 1em !important;
+    width: 200px;
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  .postCommunity-box {
+    width: 1200px;
+    flex-direction: row;
+    overflow: hidden !important;
+    padding: 3em;
+  }
+  .postCommunity-box:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 4em !important;
+    gap: 4em;
+  }
+
+  .textCommunity-display {
+    width: 100%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px !important;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  /* .fig-community {
+    margin-right: 1em !important;
+    width: 200px;
+  } */
+}

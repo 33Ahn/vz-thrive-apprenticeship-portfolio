@@ -1,0 +1,53 @@
+/* .ql-toolbar.ql-snow {
+  height: 200px;
+  padding: 20px;
+} */
+
+/* .ql-header.ql-picker {
+  height: 80px !important;
+  z-index: 111;
+} */
+#dark svg {
+  color: #ff922b;
+}
+
+#dark .ql-formats {
+  color: #ff922b;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.editor-container {
+  /* border: 1px solid red; */
+  width: 600px;
+  /* height: 10em; */
+  margin: 0 auto;
+  padding: 3em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* #light .ql-editor {
+  height: 200px;
+} */
+
+/* avatar upload img */
+#light > div.editor-container > div:nth-child(2) > div.avatar > div > div {
+  height: 3em !important;
+  /* margin-bottom: 3em !important; */
+}
+
+.publish-btn {
+  margin-top: -14em !important;
+}
+
+#light > div.editor-container > div:nth-child(2) > label > span {
+  margin-left: -2em;
+}
+
+.MuiAvatatar-root {
+  margin-bottom: 3em !important;
+}
