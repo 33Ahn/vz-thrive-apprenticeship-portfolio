@@ -16,17 +16,18 @@ Describe the overall structure of your application and the design process prior 
 
 Explain the code you wrote to achieve your desired result
 
-- To achieve the desired result, I initialized the application using a JavaScript library, React, to build the user interface components, including search box, movie cards, navigation, and movie details.
-
-- Also, deployed the application on Netlify to  be accessible to users from anywhere, providing them with a platform to interact with the application and experience its functionalities
+- To achieve the desired result, I created an asynchronous middleware function called 'authUser'. It takes in 'req', 'res', and 'next' parameters to handle user authentication. First, I retrieved the 'Authorization' header from the request, checking its existence. If it doesn't exist, I sent a message indicating the user isn't authorized and passed control to the next middleware or route handler. If the header exists, I extracted the token, checking for its presence. If the token is missing, a 401 status code is returned, indicating the need for valid credentials. I then used 'jwt.verify()' to validate the token using the provided secret. If the token is invalid or expired, a 403 status code is returned. Finally, I used 'next()' to pass control to the next middleware or route handler in the chain.
 
 Showcase your final application with its functionality
 
 - Users have the ability to perform various operations on spells within the application, such as reading, adding, deleting, and editing spells stored in the database. The login functionality ensures that passwords are securely hashed and salted before being saved to the database. Additionally, prospective users can sign up for the API, and once registered, they can be granted authorization to access and utilize the API's functionalities.
 
-Include relevant screenshots (???)
+Include relevant screenshots ( Postman screen shots)
 
-
+- ![Alt text](images/register.jpg "register")
+- ![Alt text](images/get-all-wizards.jpg "get all wizards")
+- ![Alt text](images/create-a-wizard.jpg "create a wizard")
+- ![Alt text](images/update-a-spell.jpg "update a spell")
 ## Technologies
 
 - Tech Stack
@@ -55,7 +56,7 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
 - JF 3.6 Can implement a RESTful API
 
-    - To implement a RESTful API, I utilized HTTP request verbs such as GET, POST, PUT, and DELETE, ensuring that the corresponding routes followed a consistent naming convention using plural nouns in the URLs.
+    - To implement a RESTful API, I utilized the HTTP request verbs such as GET, POST, PUT, and DELETE, ensuring that the corresponding routes followed a consistent naming convention using plural nouns in the URLs.
 
     - Additionally, I leveraged query strings to assign values to specific parameters in routes, enabling me to create more specific routes. Query strings were formed by appending a question mark followed by key-value pairs separated by equal signs, and multiple key-value pairs were separated by ampersands.
 
@@ -83,14 +84,11 @@ To access server, run `npm install`, it automatically installs all the dependenc
 
 Running `npm install` command will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file.
 
-npm install
+`npm install`
 
-To run the server
-   npm start
-   
-```
+- To run the server: `npm start`
 
-# Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
+Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
 <details>
 
    ✨ As a User, I want to read 📔 ```spells``` from the database

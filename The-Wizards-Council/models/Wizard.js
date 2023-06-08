@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const { database } = require("../db");
-const Spell = require("./Spell");
+// const Spell = require("./Spell");
 
 const Wizard = database.define("wizard", {
   id: {
