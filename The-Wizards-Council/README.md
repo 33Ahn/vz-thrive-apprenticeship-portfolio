@@ -24,10 +24,12 @@ Showcase your final application with its functionality
 
 Include relevant screenshots ( Postman screen shots)
 
-- ![Alt text](/images/register.JPG "register")
-- ![Alt text](/images/get-all-wizards.JPG "get all wizards")
-- ![Alt text](/images/create-a-wizard.JPG "create a wizard")
-- ![Alt text](/images/update-a-spell.JPG "update a spell")
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/a9d81bbe-da93-43de-99dd-76e037db24e7)
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/3657d97c-8019-4ccf-90aa-feb877b7e033)
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/ff73d2f9-ad5f-455d-aef8-cd9166f02840)
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/22dcfc08-5db9-4b0f-9fca-840cff665b63)
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/e6d8d0d5-f4ab-4e98-a1ab-2e941072522e)
+
 ## Technologies
 
 - Tech Stack
