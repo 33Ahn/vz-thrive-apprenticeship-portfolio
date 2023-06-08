@@ -24,10 +24,10 @@ Showcase your final application with its functionality
 
 Include relevant screenshots ( Postman screen shots)
 
-- ![Alt text](images/register.jpg "register")
-- ![Alt text](images/get-all-wizards.jpg "get all wizards")
-- ![Alt text](images/create-a-wizard.jpg "create a wizard")
-- ![Alt text](images/update-a-spell.jpg "update a spell")
+- ![Alt text](/The-Wizards-Council/images/register.jpg "register")
+- ![Alt text](/The-Wizards-Council/images/get-all-wizards.jpg "get all wizards")
+- ![Alt text](/The-Wizards-Council/images/create-a-wizard.jpg "create a wizard")
+- ![Alt text](/The-Wizards-Council/images/update-a-spell.jpg "update a spell")
 ## Technologies
 
 - Tech Stack
