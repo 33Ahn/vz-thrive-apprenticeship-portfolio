@@ -70,27 +70,21 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
    - To encrypt sensitive data via hashing, I implemented a salting technique where a random string was added to each user's password, ensuring uniqueness even for identical passwords. Subsequently, I applied a secure hashing algorithm like bcrypt to transform the plain text password into an unintelligible series of characters, making it indecipherable and irreversible, even with the knowledge of the hashing algorithm. This ensured the utmost security and protection for the stored passwords.
 
-## Environment Variables
+## Installation
 
-To run this project, you will need to add the following environment variables to your .env file.
+After you clone this repo, run 
+- `npm install` which will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file. 
 
+- `npm start` to run the server
+
+#### Environment Variables
+
+To run this project, you will need to add the following environment variables to your `.env` file.
 - `ACCESS_TOKEN_SECRET`
 - `PORT`
 
-## Installation
 
-After you clone this repo,
-
-```
-To access server, run `npm install`, it automatically installs all the dependencies specified in the package.json file, including sqlite3, express, and sequelize.
-
-Running `npm install` command will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file.
-
-`npm install`
-
-- To run the server: `npm start`
-
-Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
+#### Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
 <details>
 
    ✨ As a User, I want to read 📔 ```spells``` from the database
@@ -110,7 +104,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
 </details>
 
 
-# Tier 2 — Login, Hashing
+#### Tier 2 — Login, Hashing
 <details>
 
   ✨ As a User, I want to be able to log in to my API
@@ -118,7 +112,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
   ✨ As a User, I want any passwords saved to be hashed and salted before saved to the database (note: If you use OAuth, you might not even store passwords at all!)
 </details>
 
-#  Tier 3 — Register
+####  Tier 3 — Register
  <details>
 
   ✨ As a potential User, I want to be able to sign up for the API
@@ -126,7 +120,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
   ✨ As a signed-up User, I want to be granted authorization to access the API
 </details>
 
-# Tier 4 — Authorization
+#### Tier 4 — Authorization
 <details>
 
  ✨ As a User, I want my API protected from unauthorized Users 🙅
@@ -142,7 +136,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
  ✨ As a User, I want my data to only be editable/deletable by myself
 </details>
 
-# Tier 5 — Associated Data
+#### Tier 5 — Associated Data
 <details>
 
  ✨ In addition to the Tier 1 MVP criteria…
@@ -152,7 +146,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
  ✨ As a User requesting a single entry, I want to see the associated user info and other associated data.
 </details>
 
-# Tier 6 — Admin🔑 vs User💁
+#### Tier 6 — Admin🔑 vs User💁
   <details>
 
  ✨ 🔑 As an Admin, I want to have a special super-user account type that allows access to content Users don’t have access to
@@ -166,7 +160,7 @@ Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
  ✨ 🔑 As an Admin, I want to be able to delete or edit any entity, regardless of user/owner
   </details>
 
-# 🎯 Bonus Goals 🎯
+#### 🎯 Bonus Goals 🎯
 <details>
 
 * 🎯 Bonus Goal 1: Front End Login
