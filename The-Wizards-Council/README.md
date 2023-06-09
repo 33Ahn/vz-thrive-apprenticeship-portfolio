@@ -72,31 +72,37 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
 ## Installation
 
-After you clone this repo, run 
+After you clone this repo, ` git clone   `, run 
 - `npm install` which will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file. 
 
-- `npm start` to run the server
-
-#### Environment Variables
-
-To run this project, you will need to add the following environment variables to your `.env` file.
+To run this project, you will need to create `.env` file in the root directory and add the following environment variables to your `.env` file.
 - `ACCESS_TOKEN_SECRET`
 - `PORT`
 
+To generate `ACCESS_TOKEN_SECRET`
+- In a terminal, type `node` and press enter
+- Type ` require("crypto").randomBytes(64).toString("hex") ` and press Enter. It will generate a unique hash in green like the one shown below. You can use this hash as your secret.
+
+  ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/54253151-ff61-4db8-aca4-4eba9e28a7d6)
+ 
+- `npm start` to run the server 
+ 
+ 
+ 
 
 #### Tier 1 — MVP Application - CRUD and REST 👨🏽‍💻
 <details>
 
    ✨ As a User, I want to read 📔 ```spells``` from the database
-
+  
    ✨ As a User, I want to add ```spells``` to the database
-
+  
    ✨ As a User, I want to delete ```spells``` from the database
-
+  
    ✨ As a User, I want to edit ```spells``` in the database
-
+  
    ✨ As a User, I expect to do all of the above by accessing RESTful routes
-
+  
    ✨ As a User, I want to log in to a deployed app.
 
          *  🚩 Deployed app <https://the-wizards-council.onrender.com/wizards>
@@ -108,56 +114,61 @@ To run this project, you will need to add the following environment variables to
 <details>
 
   ✨ As a User, I want to be able to log in to my API
-
+  
   ✨ As a User, I want any passwords saved to be hashed and salted before saved to the database (note: If you use OAuth, you might not even store passwords at all!)
+  
 </details>
 
 ####  Tier 3 — Register
  <details>
 
   ✨ As a potential User, I want to be able to sign up for the API
-
+   
   ✨ As a signed-up User, I want to be granted authorization to access the API
+   
 </details>
 
 #### Tier 4 — Authorization
 <details>
 
  ✨ As a User, I want my API protected from unauthorized Users 🙅
-
+  
  ✨ As an unauthorized User, I want a helpful message telling me I do not have access to the API
-
+  
  ✨ As a user, I want to receive a helpful error message anytime there is a problem with the request (i.e. error handling middleware)
-
+  
  ✨ As a User, I expect not to be able to create new entities without first logging in / authenticating in some way (token/session)
-
+  
  ✨ As a User, I want my data to only be accessible by myself
-
+  
  ✨ As a User, I want my data to only be editable/deletable by myself
+  
 </details>
 
 #### Tier 5 — Associated Data
 <details>
 
  ✨ In addition to the Tier 1 MVP criteria…
-
+  
  ✨ As a User, I want to be able to read a single entry
-
+  
  ✨ As a User requesting a single entry, I want to see the associated user info and other associated data.
+  
 </details>
 
 #### Tier 6 — Admin🔑 vs User💁
   <details>
 
  ✨ 🔑 As an Admin, I want to have a special super-user account type that allows access to content Users don’t have access to
-
+    
  ✨ 💁 As a basic User, when requesting a list of all ```spells```, I expect to only see my own ```spells``` (not ```spells``` of other users)
-
+    
  ✨ 🔑 As an Admin, when requesting a list of all ```spells```, I expect to be able to see all ```spells```, regardless of user/owner
-
+    
  ✨ 🔑 As an Admin, I want to be able to edit other users’ information via the API
-
+    
  ✨ 🔑 As an Admin, I want to be able to delete or edit any entity, regardless of user/owner
+    
   </details>
 
 #### 🎯 Bonus Goals 🎯
@@ -200,3 +211,6 @@ To run this project, you will need to add the following environment variables to
   * As a User, I want my app to be visually stunning
 
 </details>
+  
+#### Acknowledgements
+  - https://readme.so/editor 
