@@ -73,9 +73,9 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
 - The project folder structure consists of a backend service implemented in Node.js.
 - It includes configuration files such as .env for environment variables and .gitignore for specifying ignored files.
-- The data folder contains seed data files (spellData and wizardData) used for populating the database.
+- The data folder contains seed data files (spellData and wizardData) used for populating the database and index.js that is responsible for populating the database with initial data using Sequelize.
 - The db.js file initializes an instance of Sequelize, allowing the application to connect and interact with the database.
-- The models folder contains two main models: "Spell" and "Wizard", which represent the entities in the application.
+- The models folder contains two main models: "Spell" and "Wizard", which represent the entities in the application and index.js file to establish the One-to-many relationship between "Spell" and "Wizard" models.
 - The middleware folder houses the "authUser" file, which handles user authentication using JWT tokens.
 - The routes folder contains separate files for different routes, including login, register, spells, and wizards. Each file is responsible for handling specific endpoints.
 - The server.js file serves as the entry point for the application, where the server is initialized and routes are defined.
