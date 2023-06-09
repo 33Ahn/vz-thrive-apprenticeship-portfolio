@@ -75,8 +75,6 @@ JOB FUNCTION 4: Manage and deploy applications and programs, conduct testing, an
 
   - The deployment process involved uploading the codebase to Netlify, configuring build settings, and triggering the deployment process. Netlify handled the build and deployment tasks, ensuring that the application was properly built and optimized for production.
 
-## Project Folder Structure
-
 ## Installation
 
 After you clone the repo, running ` npm install ` will install both the dependencies listed under "dependencies" and the development dependencies listed under "devDependencies", and both types of dependencies will be installed in the project's node_modules directory.
