@@ -79,8 +79,13 @@ JOB FUNCTION 4: Manage and deploy applications and programs, conduct testing, an
 
 ## Installation
 
-` npm install `
-` npm start `
+After you clone the repo, running ` npm install ` will install both the dependencies listed under "dependencies" and the development dependencies listed under "devDependencies", and both types of dependencies will be installed in the project's node_modules directory.
+
+Development dependencies are typically used for development and testing purposes, while regular dependencies are required for the application to run in production.
+
+- ` npm install `
+
+- ` npm start ` to run the server
 
 
 #### Tier 1 — MVP Application - Index page (or Home page) with Styled Components (CSS Framework)
