@@ -82,21 +82,23 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
 ## Installation
 
-After you clone this repo, run 
+#### After you clone this repo, run 
 - `npm install` which will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file. 
 
-To run this project, you will need to create `.env` file in the root directory and add the following environment variables to your `.env` file.
+#### To run this project
+- You will need to create `.env` file in the root directory and add the following environment variables to your `.env` file.
 - `ACCESS_TOKEN_SECRET`
 - `PORT`
 
-To generate `ACCESS_TOKEN_SECRET`
+#### To generate `ACCESS_TOKEN_SECRET`
 - In a terminal, type `node` and press enter
 - Type ` require("crypto").randomBytes(64).toString("hex") ` and press Enter. It will generate a unique hash in green like the one shown below. You can use this hash as your secret.
-- To exis the node mode, type `.exit` and press enter
 
   ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/54253151-ff61-4db8-aca4-4eba9e28a7d6)
+ - To exis the node mode, type `.exit` and press enter
  
-- `npm start` to run the server 
+#### To run the server
+- `npm start` 
 
 
 
