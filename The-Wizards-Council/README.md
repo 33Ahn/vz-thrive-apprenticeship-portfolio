@@ -92,6 +92,7 @@ To run this project, you will need to create `.env` file in the root directory a
 To generate `ACCESS_TOKEN_SECRET`
 - In a terminal, type `node` and press enter
 - Type ` require("crypto").randomBytes(64).toString("hex") ` and press Enter. It will generate a unique hash in green like the one shown below. You can use this hash as your secret.
+- To exis the node mode, type `.exit` and press enter
 
   ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/54253151-ff61-4db8-aca4-4eba9e28a7d6)
  
