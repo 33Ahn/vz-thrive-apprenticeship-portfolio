@@ -43,8 +43,7 @@ Give a high-level overview of the project purpose
     - bcrypt: 5.1.0,
     - dotenv: 16.0.3,
     - http-errors: 2.0.0,
-    - jsonwebtoken: 8.5.1,
-    - remixicon: 2.5.0
+    - jsonwebtoken: 8.5.1    
 
 - Note any deployment ot testing tools as well
 
@@ -70,9 +69,20 @@ JOB FUNCTION 3: Apply the process of server-side development, including explaini
 
    - To encrypt sensitive data via hashing, I implemented a salting technique where a random string was added to each user's password, ensuring uniqueness even for identical passwords. Subsequently, I applied a secure hashing algorithm like bcrypt to transform the plain text password into an unintelligible series of characters, making it indecipherable and irreversible, even with the knowledge of the hashing algorithm. This ensured the utmost security and protection for the stored passwords.
 
+## Project Folder Structure
+
+- The project folder structure consists of a backend service implemented in Node.js.
+- It includes configuration files such as .env for environment variables and .gitignore for specifying ignored files.
+- The data folder contains seed data files (spellData and wizardData) used for populating the database.
+- The db.js file initializes an instance of Sequelize, allowing the application to connect and interact with the database.
+- The models folder contains two main models: "Spell" and "Wizard", which represent the entities in the application.
+- The middleware folder houses the "authUser" file, which handles user authentication using JWT tokens.
+- The routes folder contains separate files for different routes, including login, register, spells, and wizards. Each file is responsible for handling specific endpoints.
+- The server.js file serves as the entry point for the application, where the server is initialized and routes are defined.
+
 ## Installation
 
-After you clone this repo, ` git clone   `, run 
+After you clone this repo, run 
 - `npm install` which will read the package.json file, resolve the dependencies, and install them in the node_modules directory of your project. Therefore, there is no need to manually install each package individually if they are already listed in the package.json file. 
 
 To run this project, you will need to create `.env` file in the root directory and add the following environment variables to your `.env` file.
@@ -86,6 +96,8 @@ To generate `ACCESS_TOKEN_SECRET`
   ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/54253151-ff61-4db8-aca4-4eba9e28a7d6)
  
 - `npm start` to run the server 
+
+ 
  
  
  
