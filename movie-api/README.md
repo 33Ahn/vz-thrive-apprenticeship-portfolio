@@ -1,26 +1,26 @@
 ## Project #1: movie-api
 
-Give a high-level overview of the project purpose
+### Give a high-level overview of the project purpose
 
-Describe the application and why you created this program
+#### Describe the application and why you created this program
 
 - The purpose of the project was to create a movie API that allows users to search for movies, view movie details, and manage their movie watchlist. This project was part of the Frontend module and aimed to familiarize ourselves with API usage.
 
-Describe the overall structure of your application and the design process prior to building the program
+#### Describe the overall structure of your application and the design process prior to building the program
 
 - Before building the program, the overall structure of the application was planned and designed. This involved determining which movie data API sites we would use, API endpoints based on what we want to show, and user interface components. Wireframes were created to visualize the application's layout and functionality.
 
-Explain the code you wrote to achieve your desired result
+#### Explain the code you wrote to achieve your desired result
 
 - To achieve the desired result, I initialized the application using a JavaScript library, React, to build the user interface components, including search box, movie cards, navigation, and movie details.
 
 - Also, deployed the application on Netlify to be accessible to users from anywhere, providing them with a platform to interact with the application and experience its functionalities
 
-Showcase your final application with its functionality
+#### Showcase your final application with its functionality
 
 - The final application showcased full functionality, allowing users to search for movies by title, view detailed information about each movie, and add movies to their watchlist. The user interface provided an intuitive and user friendly experience, making it easy for users to navigate and interact with the application.
 
-Include relevant screenshots
+## Include relevant screenshots
 
 ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/0ff881d9-ce26-4bc2-9388-7c3ec47e706a)
 
