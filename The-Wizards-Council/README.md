@@ -2,11 +2,11 @@
 
 Give a high-level overview of the project purpose
 
-Describe the application and why you created this program
+#### Describe the application and why you created this program
 
 - The purpose of this project, which was part of the Backend module, was to develop a backend service that enables users to perform CRUD operations on their own spells. The project aimed to provide hands-on experience with RESTful CRUD operations, as well as authentication and authorization processes. Additionally, it involved implementing hashing and JWT (Json Web Token) for enhanced security.
 
-Describe the overall structure of your application and the design process prior to building the program
+#### Describe the overall structure of your application and the design process prior to building the program
 
 - The design process involved creating the necessary endpoints for each CRUD operation (create, read, update, delete) and defining their corresponding routes.
 
@@ -14,15 +14,15 @@ Describe the overall structure of your application and the design process prior 
 
 - Authentication and authorization were implemented using JSON Web Tokens (JWT), where users were issued tokens upon successful login, and these tokens were used to verify their identity and permissions for accessing protected resources.
 
-Explain the code you wrote to achieve your desired result
+#### Explain the code you wrote to achieve your desired result
 
 - To achieve the desired result, I created an asynchronous middleware function called 'authUser'. It takes in 'req', 'res', and 'next' parameters to handle user authentication. First, I retrieved the 'Authorization' header from the request, checking its existence. If it doesn't exist, I sent a message indicating the user isn't authorized and passed control to the next middleware or route handler. If the header exists, I extracted the token, checking for its presence. If the token is missing, a 401 status code is returned, indicating the need for valid credentials. I then used 'jwt.verify()' to validate the token using the provided secret. If the token is invalid or expired, a 403 status code is returned. Finally, I used 'next()' to pass control to the next middleware or route handler in the chain.
 
-Showcase your final application with its functionality
+#### Showcase your final application with its functionality
 
 - Users have the ability to perform various operations on spells within the application, such as reading, adding, deleting, and editing spells stored in the database. The login functionality ensures that passwords are securely hashed and salted before being saved to the database. Additionally, prospective users can sign up for the API, and once registered, they can be granted authorization to access and utilize the API's functionalities.
 
-Include relevant screenshots ( Postman screen shots)
+#### Include relevant screenshots ( Postman screen shots)
 
   ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/a9d81bbe-da93-43de-99dd-76e037db24e7)
   ![image](https://github.com/33Ahn/vz-thrive-apprenticeship-portfolio/assets/87917443/3657d97c-8019-4ccf-90aa-feb877b7e033)
